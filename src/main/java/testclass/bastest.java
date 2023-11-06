@@ -22,8 +22,7 @@ public class bastest {
         LoginPo login = new LoginPo(driver);
          
         
-        
-        
+        System.out.println("pass");
         
         login.loginToPage();
         Thread.sleep(1500);
